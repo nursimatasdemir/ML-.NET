@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Models\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.ML" Version="3.0.1" />
+      <PackageReference Include="Microsoft.ML.FastTree" Version="3.0.1" />
+      <PackageReference Include="Microsoft.Office.Interop.Word" Version="15.0.4797.1004" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\LetterHighlighter.ML\LetterHighlighter.ML.csproj" />
+    </ItemGroup>
+
+</Project>
